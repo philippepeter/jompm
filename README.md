@@ -3,7 +3,7 @@
 Java library to manage some external processes even when the master Java process is offline.
 
 ## Concept
-Use the ProcessBuilder to launch tasks, listen to a status for progression and store the pid to allow to retreive 
+Use the ProcessBuilder to launch tasks, listen to a status for progression and get the pid to allow to retreive 
 the state and kill the process even after a relaunch. 
 The status listening first implementation is by using a `status.data` file with just an integer for the percentage 
 of progress. 100 when it's done.
